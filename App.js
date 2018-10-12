@@ -9,10 +9,27 @@ const StyleSheet = ReactNative.StyleSheet;
 */
 
 export default class App extends React.Component {
+  renderList() {
+    const names = [
+      'Robson Silva',
+      'Gildard Mhn',
+      'Gabriel Lins',
+      'Max Wendel',
+      'Emerson Vieira'
+    ];
+
+    const textElements = names.map(name => {
+      return <Text>{ name }</Text>
+    })
+
+    return textElements;
+  }
+
   render() {
     return (
       <View /* style={styles.container} */>
         <Header title="Pessoas!" />
+        { this.renderList() }
       </View>
     );
   }
