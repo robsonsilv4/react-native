@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Header from 'src/components/Header'
 
 /*
 Equivalente:
@@ -11,12 +12,11 @@ export default class App extends React.Component {
   render() {
     return (
       <View /* style={styles.container} */>
-        <Text>Testando...</Text>
-        <Text>Testando...</Text>
-        <Text>Testando...</Text>
-        <Text>Testando...</Text>
-        <Text>Testando...</Text>
-        <Text>Funcionou!</Text>
+        <Header/>
+        <Header/>
+        <Header/>
+        <Header/>
+        <Header/>
       </View>
     );
   }
