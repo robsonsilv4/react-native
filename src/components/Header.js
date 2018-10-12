@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
 /*
 Statefull:
@@ -30,7 +30,7 @@ const titleStyle = {
 // Stateless:
 const Header = (props) => (
 	<View style={style.container}>
-		<Text style={style.title}>Esse é o nosso Header</Text>
+		<Text style={style.title}>{ props.title }</Text>
 	</View>
 );
 
