@@ -1,11 +1,20 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+/*
+Equivalente:
+import ReactNative from 'react-native';
+const StyleSheet = ReactNative.StyleSheet;
+*/
+
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+      <View /* style={styles.container} */>
+        <Text>Testando...</Text>
+        <Text>Testando...</Text>
+        <Text>Testando...</Text>
+        <Text>Testando...</Text>
         <Text>Testando...</Text>
         <Text>Funcionou!</Text>
       </View>
@@ -13,6 +22,7 @@ export default class App extends React.Component {
   }
 }
 
+/*
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -21,3 +31,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+*/
