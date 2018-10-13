@@ -39,7 +39,7 @@ const style = StyleSheet.create({
 		marginTop: 15,
 		backgroundColor: '#fff',
 		/*Flex Box*/
-		alignItens: 'center',
+		alignItems: 'center',
 		justifyContent: 'center'
 	},
 	title: {
